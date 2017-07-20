@@ -1,0 +1,22 @@
+
+menu "MTK Board Support Package"
+
+config TINNO_ANDROID_L5560AE
+	bool "TINNO_ANDROID_L5560AE"
+	default n
+	help
+	  Select if you are using l5560ae project.
+
+config TINNO_ANDROID_L8420AE
+	bool "TINNO_ANDROID_L8420AE"
+	default n
+	help
+	  Select if you are using l8420ae project.
+	  
+config TINNO_ANDROID_L8560AE
+	bool "TINNO_ANDROID_L8560AE"
+	default n
+	help
+	  Select if you are using l8560ae project.
+
+endmenu
